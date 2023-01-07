@@ -3,19 +3,19 @@ import styles from './navbar.module.css'
 
 const links = [{
   label: 'Home',
-  to: '/'
+  to: '#'
 },
 {
   label: 'Projects',
-  to: '/projects'
+  to: '#'
 },
 {
   label: 'Experience',
-  to: '/experience'
+  to: '#'
 },
 {
   label: 'Contact',
-  to: '/contact'
+  to: '#'
 }]
 
 export default function Navbar () {
