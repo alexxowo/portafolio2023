@@ -2,11 +2,6 @@ import styles from './timeline.module.css'
 
 const timeline = [
   {
-    title: 'Alpha Technology',
-    subtitle: 'Sys Admin - Backend Engineer / Actual',
-    description: 'Development of new features for the main product of the company. Management of servers and databases.'
-  },
-  {
     title: 'Leberp Core Spain S.L',
     subtitle: 'Backend Developer / Actual',
     description: 'Development of new features for the main product of the company. Management of servers and databases.'
@@ -43,7 +38,7 @@ function TimelineContent ({ title, subtitle, description, style }) {
   return (
     <div className={style}>
       <div className={styles.content}>
-        <h2>{title}</h2>
+        <h2 className='heading-md uppercase'>{title}</h2>
         <small>{subtitle}</small>
         <p>{description}</p>
       </div>

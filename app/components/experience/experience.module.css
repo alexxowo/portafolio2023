@@ -1,0 +1,5 @@
+.experience{
+    background-color:rgb(255, 255, 255);
+    color: var(--timeline-content-foreground);
+    height: calc(100% + 200px);
+  }
