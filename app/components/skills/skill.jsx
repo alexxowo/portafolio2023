@@ -31,10 +31,22 @@ export default function Skill ({ title, skills }) {
         </div>
       </div>
       <div className={style.skills__about}>
-        <h2>Know more...</h2>
-        <p>
-          I am a software developer with experience in areas such as backend, frontend and process automation with Git Hooks and scripting on servers and network equipment (switches and routers, especially from Mikrotik). My main skills are related to the backend, as administrator of linux-based servers, SQL databases (PostgreSQL and MySQL), and API development with NodeJS and .NET. But I also have experience in the frontend, with ReactJS and NextJS, using tailwindcss for interface design. Aspiring mobile developer with React Native and Pentester.
-        </p>
+        <div>
+          <h2>Know more...</h2>
+          <p>
+            I am a software developer with experience in areas such as backend, frontend and process automation with Git Hooks and scripting on servers and network equipment (switches and routers, especially from Mikrotik). My main skills are related to the backend, as administrator of linux-based servers, SQL databases (PostgreSQL and MySQL), and API development with NodeJS and .NET. But I also have experience in the frontend, with ReactJS and NextJS, using tailwindcss for interface design. Aspiring mobile developer with React Native and Pentester.
+          </p>
+        </div>
+        <hr />
+        <div>
+          <h2>Services</h2>
+          <ul className='list'>
+            <li>Software Development</li>
+            <li>Server maintenance</li>
+            <li>Web Design</li>
+            <li>Scripting</li>
+          </ul>
+        </div>
       </div>
     </div>
   )
