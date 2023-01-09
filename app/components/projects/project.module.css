@@ -50,3 +50,33 @@
 .projects__item:hover .projects__item::after:hover{
     opacity: 0;
 }
+
+/* Project Cards */
+.project{
+    outline: 2px solid rgba(0, 0, 0, 0.575);
+    max-width: 260px;
+}
+
+.project__content{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.project__technologies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.project__technologies span{
+    background-color: #000000;
+    color: white;
+    padding: 4px 8px;
+}
