@@ -153,3 +153,7 @@ hr{
 .btn-primary:hover{
   cursor: pointer;
 }
+
+.no-scroll{
+  overflow: hidden;
+}

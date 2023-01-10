@@ -4,4 +4,6 @@
   gap: 24px;
   max-width: 1900px;
   margin: 0px auto;
+  position: relative;
+  z-index: 0px;
 }
