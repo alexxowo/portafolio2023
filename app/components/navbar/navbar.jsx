@@ -1,5 +1,8 @@
-import Link from 'next/link'
+'use client'
 import styles from './navbar.module.css'
+import DesktopNavbar from './desktop/desktop'
+import MobileNavbar from './mobile/mobile'
+import { AnimatePresence } from 'framer-motion'
 
 const links = [{
   label: 'Home',
@@ -20,14 +23,11 @@ const links = [{
 
 export default function Navbar () {
   return (
-    <nav className={styles.navigation}>
-      <ul className={styles.navigation_list}>
-        {links.map(({ icon, label, to }) => (
-          <li key={to}>
-            <Link href={to}>{label}</Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div className={styles.navigation__container}>
+      <AnimatePresence>
+        <DesktopNavbar links={links} />
+        <MobileNavbar links={links} />
+      </AnimatePresence>
+    </div>
   )
 }
