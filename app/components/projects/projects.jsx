@@ -16,6 +16,13 @@ const PROJECTS = [{
   description: 'Implementation of a smart traffic light using object detection with Firefly RK3566 and ESP32',
   image: Placeholder,
   technologies: ['Python', 'C++', 'Tensorflow', 'ESP32']
+},
+{
+  id: 3,
+  title: 'Besser 97.5FM Website',
+  description: 'Website for a local radio station in Venezuela, built with Next.js and tailwindcss.',
+  image: Placeholder,
+  technologies: ['Tailwincss', 'Next.js', 'React']
 }]
 
 export default function Projects () {
