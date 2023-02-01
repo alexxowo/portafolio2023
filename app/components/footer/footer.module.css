@@ -100,3 +100,37 @@
     align-items: flex-start;
     gap: 20px;
 }
+
+.animate__text_slider{
+    display: inline-flex;
+    height: 20px;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.animate_text{
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1rem;
+
+    transform: translateY(100%);
+    animation: text-animation 9s ease infinite;
+}
+
+.animate_text div{
+    padding: 0 1rem;
+}
+
+@keyframes text-animation  {
+    10%, 33%{
+        transform: translateY(0%);
+    }
+    43%, 66%{
+        transform: translateY(-100%);
+    }
+    76%, 100%{
+        transform: translateY(-200%);
+    }
+}
