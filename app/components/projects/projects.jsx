@@ -3,27 +3,28 @@ import ProjectCard from './ProjectCard'
 
 import Placeholder from '../../../public/placeholder.png'
 
-const PROJECTS = [{
-  id: 1,
-  title: 'Alexandre Marquez Portfolio',
-  description: 'Portfolio website built with Next.js',
-  image: Placeholder,
-  technologies: ['Next.js', 'React']
-},
-{
-  id: 2,
-  title: 'Smart Traffic Lights',
-  description: 'Implementation of a smart traffic light using object detection with Firefly RK3566 and ESP32',
-  image: Placeholder,
-  technologies: ['Python', 'C++', 'Tensorflow', 'ESP32']
-},
-{
-  id: 3,
-  title: 'Besser 97.5FM Website',
-  description: 'Website for a local radio station in Venezuela, built with Next.js and tailwindcss.',
-  image: Placeholder,
-  technologies: ['Tailwincss', 'Next.js', 'React']
-}]
+const PROJECTS = [
+  {
+    id: 1,
+    title: 'Smart Traffic Lights',
+    description: 'Implementation of a smart traffic light using object detection with Firefly RK3566 and ESP32',
+    image: Placeholder,
+    technologies: ['Python', 'C++', 'Tensorflow', 'ESP32']
+  },
+  {
+    id: 2,
+    title: 'Besser 97.5FM Website',
+    description: 'Website for a local radio station in Venezuela, built with Next.js and tailwindcss.',
+    image: Placeholder,
+    technologies: ['Tailwincss', 'Next.js', 'React']
+  },
+  {
+    id: 3,
+    title: 'Weather App',
+    description: 'An simple weather app built with React Native, using expo and consuming the OpenWeather API.',
+    image: Placeholder,
+    technologies: ['React Native', 'Expo']
+  }]
 
 export default function Projects () {
   return (
