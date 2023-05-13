@@ -28,7 +28,7 @@ const PROJECTS = [
 
 export default function Projects () {
   return (
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id='projects'>
       <div className={style.content}>
         <h2 className={style.title + ' heading-lg'}>Projects</h2>
         <div className={style.projects__container}>

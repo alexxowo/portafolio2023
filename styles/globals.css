@@ -36,6 +36,10 @@
   --timeline-content-foreground: #000;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 @media only screen and (max-width: 595px) {
   
 }
