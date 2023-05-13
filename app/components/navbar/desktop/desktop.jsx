@@ -1,6 +1,6 @@
 'use client'
 import styles from '../navbar.module.css'
-import Link from 'next/link'
+import ScrollLink from '../../ScrollLink'
 
 export default function DesktopNavbar ({ links }) {
   return (
@@ -8,7 +8,7 @@ export default function DesktopNavbar ({ links }) {
       <ul className={styles.navigation_list}>
         {links.map(({ label, to }) => (
           <li key={label}>
-            <Link href={to}>{label}</Link>
+            <ScrollLink href={to}>{label}</ScrollLink>
           </li>
         ))}
       </ul>

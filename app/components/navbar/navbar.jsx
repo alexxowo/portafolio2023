@@ -6,19 +6,15 @@ import { AnimatePresence } from 'framer-motion'
 
 const links = [{
   label: 'Home',
-  to: '#'
+  to: '#home'
 },
 {
   label: 'Projects',
-  to: '#'
+  to: '#projects'
 },
 {
   label: 'Experience',
-  to: '#'
-},
-{
-  label: 'Contact',
-  to: '#'
+  to: '#experience'
 }]
 
 export default function Navbar () {
