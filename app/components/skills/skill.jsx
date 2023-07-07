@@ -1,6 +1,7 @@
 import style from './skill.module.css'
 
 export default function Skill ({ title, skills }) {
+  
   return (
     <>
       <div className={style.skills} id='skills'>
@@ -17,6 +18,8 @@ export default function Skill ({ title, skills }) {
               <li>NodeJS</li>
               <li>.NET</li>
               <li>Linux</li>
+              <li>SQL Server / MySql / PostgreSQL</li>
+              <li>Redis</li>
             </ul>
           </div>
           <div className={style.skills__item}>
@@ -37,7 +40,7 @@ export default function Skill ({ title, skills }) {
         </div>
         <div className={style.skills__about}>
           <div>
-            <h2>Know more...</h2>
+            <h2>Know more</h2>
             <p>
               I am a software developer with experience in areas such as backend, frontend and process automation with Git Hooks and scripting on servers and network equipment (switches and routers, especially from Mikrotik). My main skills are related to the backend, as administrator of linux-based servers, SQL databases (PostgreSQL and MySQL), and API development with NodeJS and .NET. But I also have experience in the frontend, with ReactJS and NextJS, using tailwindcss for interface design. Aspiring mobile developer with React Native and Pentester.
             </p>

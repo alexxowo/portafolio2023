@@ -8,13 +8,6 @@ export default function Footer () {
       <div className={style.footer__container}>
         <div className={style.footer__header}>
           <h1 className={style.footer__header_title}><b>Alexandre</b> Marquez</h1>
-          <div className={style.animate__text_slider}>
-            <div className={style.animate_text}>
-              <div className={style.first}>Frontend Developer</div>
-              <div className={style.second}>Backend Developer</div>
-              <div className={style.third}>Sys Admin</div>
-            </div>
-          </div>
         </div>
         <div className={style.footer__content}>
           <ul className='navigator'>
@@ -31,12 +24,6 @@ export default function Footer () {
         <div className={style.footer__footer}>
           <div className={style.footer__footer__item}>
             <p>Contact me</p>
-            <a href='#'>+58 412-6927900</a>
-            <a href='mailto:alexandremarquez90@gmail.com'>alexandremarquez90@gmail.com</a>
-          </div>
-          <div className={style.footer__footer__item}>
-            <p>You want contract me?</p>
-            <p>Write me at:</p>
             <a href='mailto:alexandremarquez90@gmail.com'>alexandremarquez90@gmail.com</a>
           </div>
           <div className={style.footer__footer__item}>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Traffic Lights",
+    "description": "Implementation of a smart traffic light using object detection with Firefly RK3566 and ESP32",
+    "image": "",
+    "technologies": ["Python", "C++", "Tensorflow", "ESP32"]
+  },
+  {
+    "id": 2,
+    "title": "Besser 97.5FM Website",
+    "description": "Website for a local radio station in Venezuela, built with Next.js and tailwindcss.",
+    "image": "",
+    "technologies": ["Tailwincss", "Next.js", "React"]
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "description": "An simple weather app built with React Native, using expo and consuming the OpenWeather API.",
+    "image": "",
+    "technologies": ["React Native", "Expo"]
+  }]
